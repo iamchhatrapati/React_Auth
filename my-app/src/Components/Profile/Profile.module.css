@@ -1,0 +1,25 @@
+.profile {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .headerStyle {
+    background-color: #4A90E2;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+  }
+  
+  .titleStyle {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  .subTitleStyle {
+    font-size: 1rem;
+    margin-top: 10px;
+    font-weight: 300;
+  }

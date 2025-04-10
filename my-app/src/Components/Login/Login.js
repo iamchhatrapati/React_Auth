@@ -47,7 +47,7 @@ const Login = ({ setUserState }) => {
   useEffect(() => {
     if (Object.keys(formErrors).length === 0 && isSubmit) {
       console.log(user);
-      axios.post("http://localhost:8000/login", user).then((res) => {
+      axios.post("https://react-auth-1.onrender.com/login", user).then((res) => {
         // alert(res.data.message);
         toast.success(res.data.message, {
           position: "top-right",
